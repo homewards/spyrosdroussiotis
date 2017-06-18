@@ -1,0 +1,66 @@
+
+
+p {
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("images/12.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.yo {
+            position: absolute;
+    font-size: 10px;
+    line-height: 100%;
+    color: white;
+     letter-spacing: 1px;
+     text-align: center;
+     top: 40%;
+     left: 20%;
+     right: 20%;
+     font-family: 'Playfair Display SC', serif;
+     padding: 0;
+
+}
+#yop {
+    font-size: 50px;
+        line-height: 110%;
+padding: 0;
+
+}
+.yap {
+            position: absolute;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: white;
+      text-align: center;
+}
+
+.yep {
+ position: absolute;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
