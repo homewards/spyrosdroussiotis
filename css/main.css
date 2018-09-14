@@ -6,6 +6,7 @@ p {
 body, html {
     height: 100%;
     margin: 0;
+    font-family: 'Prata', serif;
 }
 
 .bg {
@@ -28,13 +29,22 @@ height: 100%;
      letter-spacing: 1px;
      top: 0%;
      left: 1%;
-font-family: 'Prata', serif;
      padding: 0;
          font-size: 40px;
 padding: 0;
 color: white;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.text
+{
+  font-size: 35px;
+  color: white;
+}
 
 }
 .yap {
