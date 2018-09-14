@@ -7,6 +7,7 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: 'Prata', serif;
+             font-size: 35px;
 }
 
 .bg {
@@ -30,7 +31,6 @@ height: 100%;
      top: 0%;
      left: 1%;
      padding: 0;
-         font-size: 40px;
 padding: 0;
 color: white;
 }
@@ -42,7 +42,6 @@ p {
 
 .text
 {
-  font-size: 35px;
   color: white;
 }
 
@@ -70,7 +69,7 @@ p {
 
 .burger {
   position: absolute;
-     top: 1%;
+     top: 0%;
      right: 1%;
      color: white;
 }
