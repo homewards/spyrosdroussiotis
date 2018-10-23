@@ -6,15 +6,7 @@ body, html {
 }
 
 .bg {
-  /* The image used */
-  background-image: url("images/3.jpg");
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+ background-color: white;
 }
 
 .yo {
@@ -43,6 +35,15 @@ a {
 
 .text {
   color: white;
+}
+
+.ma { 
+  display: block;
+  text-align: center;
+  top: 10%;
+  width: 100%;
+  margin-top: 0px;
+  left: 1%;
 }
 
 .yap {
