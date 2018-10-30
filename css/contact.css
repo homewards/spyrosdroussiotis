@@ -14,8 +14,6 @@ body, html {
   letter-spacing: 1px;
   top: 1%;
   left: 1%;
-  padding: 0;
-  padding: 0;
   color: black;
 }
 
@@ -47,12 +45,11 @@ p {
 }
 
 a {
-  padding: 0px;
   text-decoration: none;
   color: black;
   display: block;
-  transition: 0.3s;
-  right: 1%;
+      right: 0%;
+      z-index: 15;
 }
 
 .text {
