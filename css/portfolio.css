@@ -10,11 +10,13 @@ body, html {
 }
 
 .yo {
-  position: absolute;
+  position: fixed;
   letter-spacing: 1px;
   left: 1%;
-padding-top: 8px;
+  top: 0%
   color: black;
+padding-top: 3px;
+    margin: 0;
 
 }
 
