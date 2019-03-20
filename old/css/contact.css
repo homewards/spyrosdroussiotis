@@ -1,0 +1,228 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 35px;
+}
+
+.bg {
+ background-color: white;
+}
+
+.yo {
+  position: absolute;
+  letter-spacing: 1px;
+  left: 1%;
+padding-top: 8px;
+  color: black;
+
+}
+
+.yo2 {
+  position: absolute;
+  letter-spacing: 1px;
+  top: 1%;
+  left: 1%;
+  padding: 0;
+  padding: 0;
+  color: black;
+}
+
+.pic1 {
+  top: 20%;
+}
+
+.pic2 {
+  top: 50%;
+}
+
+.hr2 {
+  color: white;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+      right: 0%;
+      z-index: 15;
+}
+
+.text {
+  color: white;
+}
+
+.ma { 
+  display: block;
+  text-align: center;
+  top: 10%;
+  width: 100%;
+  margin-top: 0px;
+  left: 1%;
+
+}
+
+.max { 
+  display: block;
+  text-align: left;
+  top: 10%;
+  right: 10px;
+  width: 100%;
+  margin-top: 0px;
+  left: 1%;
+}
+
+.yap {
+  position: absolute;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  text-align: center;
+}
+
+.yep {
+  position: absolute;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  color: black;
+}
+
+.burger2 {}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.overlay-content {
+  text-align: center;
+  top: 10%;
+  width: 100%;
+  margin-top: 0px;
+  left: 1%;
+}
+
+.overlay a {
+  padding: 0px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  right: 1%;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.mynav {
+  top: 10%;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0%;
+  right: 1%;
+  font-size: 55px;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 1.6%;
+  right: 1%;
+  color: black;
+  font-size: 30px;
+
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 16px;
+  padding-bottom: 0;
+  padding-top: 0;
+  text-decoration: none;
+}
+
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+/* touto en ena trasition pou en na mporouse na kamei to nav bar */
+/* @media only screen and (max-width : 960px) {
+
+nav ul {
+  opacity: 0;
+    transition: visibility 0s 5s, opacity 5s linear;
+}
+
+} */
+
+@media only screen and (max-width : 900px) {
+
+	.burger {
+		display:inline-block;
+
+	}
+
+	nav ul, nav:active ul {
+
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: #fff;
+		border: 5px solid #444;
+		right: 20px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+
+	}
+}
+
+
